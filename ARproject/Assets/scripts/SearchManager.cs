@@ -46,7 +46,7 @@ public class SearchManager : MonoBehaviour
         }
         else //아닐 경우, 웹사이트 사전 검색페이지로 이동
         {
-            string strUrl = "https://terms.naver.com/search.nhn?query=" + searchWordInput.ToString() + "&searchType=&dicType=&subject=all";
+            string strUrl = "https://terms.naver.com/search.nhn?query=" + searchWordInput.text.ToString() + "&searchType=&dicType=&subject=all";
 
             webViewObject = (new GameObject("WebViewObject")).AddComponent<WebViewObject>();
             webViewObject.Init((msg) => { Debug.Log(string.Format("CallFromJS[{0}]", msg)); });
