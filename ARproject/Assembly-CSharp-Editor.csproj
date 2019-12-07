@@ -60,22 +60,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Download\PE2D\Editor\ImageEffects\AntialiasingEditor.cs" />
-    <Compile Include="Assets\Download\PE2D\Editor\ImageEffects\BloomAndFlaresEditor.cs" />
-    <Compile Include="Assets\Download\PE2D\Editor\ImageEffects\BloomEditor.cs" />
-    <Compile Include="Assets\Download\PE2D\Editor\ImageEffects\CameraMotionBlurEditor.cs" />
-    <Compile Include="Assets\Download\PE2D\Editor\ImageEffects\ColorCorrectionCurvesEditor.cs" />
-    <Compile Include="Assets\Download\PE2D\Editor\ImageEffects\ColorCorrectionLookupEditor.cs" />
-    <Compile Include="Assets\Download\PE2D\Editor\ImageEffects\DepthOfFieldDeprecatedEditor.cs" />
-    <Compile Include="Assets\Download\PE2D\Editor\ImageEffects\DepthOfFieldEditor.cs" />
-    <Compile Include="Assets\Download\PE2D\Editor\ImageEffects\EdgeDetectionEditor.cs" />
-    <Compile Include="Assets\Download\PE2D\Editor\ImageEffects\NoiseAndGrainEditor.cs" />
-    <Compile Include="Assets\Download\PE2D\Editor\ImageEffects\SunShaftsEditor.cs" />
-    <Compile Include="Assets\Download\PE2D\Editor\ImageEffects\TonemappingEditor.cs" />
-    <Compile Include="Assets\Download\PE2D\Editor\ImageEffects\VignetteAndChromaticAberrationEditor.cs" />
-    <Compile Include="Assets\Download\PE2D\Particle Effects\Editor\ParticleEffectorEditor.cs" />
-    <Compile Include="Assets\Download\PE2D\Particle Effects\Editor\ParticleEmitterInRandomDirectionEditor.cs" />
-    <Compile Include="Assets\Download\PE2D\Particle Effects\Editor\ParticleEmitterInRandomDirectionEditor1.cs" />
+    <Compile Include="Assets\AssetStoreOriginals\_SNAPS_PrototypingAssets\Scripts\Editor\PackageChecker\PackageChecker.cs" />
+    <None Include="Assets\AssetStoreOriginals\_SNAPS_PrototypingAssets\Scripts\Editor\PackageChecker\PackageImportList.txt" />
     <None Include="Assets\Editor\Vuforia\CylinderTargetTextures\VuforiaMars_Images\authoringinfo.xml" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>C:/Users/puppy/Documents/ARproject/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
@@ -91,6 +77,24 @@
     </Reference>
     <Reference Include="Unity.Analytics.DataPrivacy">
       <HintPath>C:/Users/puppy/Documents/ARproject/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ProGrids">
+      <HintPath>C:/Users/puppy/Documents/ARproject/Library/ScriptAssemblies/Unity.ProGrids.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ProBuilder">
+      <HintPath>C:/Users/puppy/Documents/ARproject/Library/ScriptAssemblies/Unity.ProBuilder.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ProBuilder.Editor">
+      <HintPath>C:/Users/puppy/Documents/ARproject/Library/ScriptAssemblies/Unity.ProBuilder.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ProBuilder.AssetIdRemapUtility">
+      <HintPath>C:/Users/puppy/Documents/ARproject/Library/ScriptAssemblies/Unity.ProBuilder.AssetIdRemapUtility.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ProGrids.Editor">
+      <HintPath>C:/Users/puppy/Documents/ARproject/Library/ScriptAssemblies/Unity.ProGrids.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ProBuilder.AddOns.Editor">
+      <HintPath>C:/Users/puppy/Documents/ARproject/Library/ScriptAssemblies/Unity.ProBuilder.AddOns.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>

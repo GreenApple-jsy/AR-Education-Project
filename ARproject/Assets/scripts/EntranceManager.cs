@@ -7,6 +7,19 @@ public class EntranceManager : MonoBehaviour
 {
     private WebViewObject webViewObject;
 
+    private void Awake()
+    {
+        PlayerPrefs.SetString("공유결합", "공유결합");
+        PlayerPrefs.SetString("공유", "공유결합");
+        PlayerPrefs.SetString("이온결합", "이온결합");
+        PlayerPrefs.SetString("이온", "이온결합");
+        PlayerPrefs.SetString("불꽃반응", "불꽃반응");
+        PlayerPrefs.SetString("불꽃색반응", "불꽃반응");
+        PlayerPrefs.SetString("속도", "속도");
+        PlayerPrefs.SetString("마찰력", "마찰력");
+        PlayerPrefs.SetString("마찰", "마찰력");
+    }
+
     private void Update()
     {
         if (GameObject.Find("WebViewObject") != null)
@@ -21,7 +34,7 @@ public class EntranceManager : MonoBehaviour
 
     public void StartButton()
     {
-        SceneManager.LoadScene("Main");
+        SceneManager.LoadScene("Selection");
     }
 
     public void WebButton()
