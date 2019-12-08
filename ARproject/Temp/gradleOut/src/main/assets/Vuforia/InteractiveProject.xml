@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
+  <Tracking>
+    <ImageTarget name="ff" size="100.000000 56.201275" />
+    <ImageTarget name="ffTEXT" size="100.000000 62.815884" />
+    <ImageTarget name="speedTEXT" size="100.000000 64.140480" />
+    <ImageTarget name="flameTEXT" size="100.000000 64.273209" />
+    <ImageTarget name="0uTEXT" size="100.000000 60.971222" />
+    <ImageTarget name="2onTEXT" size="100.000000 51.636364" />
+    <ImageTarget name="flame" size="100.000000 56.272148" />
+    <ImageTarget name="2on" size="200.000000 112.830956" />
+    <ImageTarget name="0u" size="100.000000 56.170212" />
+  </Tracking>
+</QCARConfig>

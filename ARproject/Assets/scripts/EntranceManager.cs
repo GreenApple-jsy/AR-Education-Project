@@ -13,9 +13,10 @@ public class EntranceManager : MonoBehaviour
         PlayerPrefs.SetString("공유", "공유결합");
         PlayerPrefs.SetString("이온결합", "이온결합");
         PlayerPrefs.SetString("이온", "이온결합");
+        PlayerPrefs.SetString("불꽃", "불꽃반응");
+        PlayerPrefs.SetString("불꽃색", "불꽃반응");
         PlayerPrefs.SetString("불꽃반응", "불꽃반응");
         PlayerPrefs.SetString("불꽃색반응", "불꽃반응");
-        PlayerPrefs.SetString("속도", "속도");
         PlayerPrefs.SetString("마찰력", "마찰력");
         PlayerPrefs.SetString("마찰", "마찰력");
     }

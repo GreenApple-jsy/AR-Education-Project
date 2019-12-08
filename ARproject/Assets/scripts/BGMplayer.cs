@@ -6,6 +6,15 @@ public class BGMplayer : MonoBehaviour
 {
     private void Awake()
     {
-        DontDestroyOnLoad(this);
+        if (GameObject.Find("wholeBGMplayer") != null)
+        {
+            Destroy(gameObject);
+        }
+        else
+        {
+            name = "wholeBGMplayer";
+            DontDestroyOnLoad(this);
+        }
+        
     }
 }
